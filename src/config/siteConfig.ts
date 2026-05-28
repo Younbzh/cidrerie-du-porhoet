@@ -1,191 +1,171 @@
 export const siteConfig = {
-  businessName: "Ô Gourmandiz d'Aurore",
-  tagline: "Pâtisseries & Biscuiteries artisanales sur commande",
-  description: "Pâtisseries et biscuiteries artisanales, créatives & de saison sur commande. Aurore Delmas, pâtissière indépendante à La Motte (22), Centre Bretagne.",
+  businessName: "Cidrerie du Porhoët",
+  tagline: "Cidre artisanal vivant · Mohon, Morbihan",
+  description: "Cidre artisanal non filtré, non pasteurisé, à fermentation naturelle. Thierry Jolivet produit ses cuvées au Manoir de La Ville Quesniac à Mohon (Morbihan).",
 
   contact: {
-    phone: "06 09 84 60 70",
-    whatsapp: "33609846070",
-    email: "ogourmandizdaurore@gmail.com",
+    phone: "06 24 93 61 34",
+    whatsapp: "33624936134",
+    email: "cidrerieduporhoet@gmail.com",
     address: {
-      street: "",
-      city: "La Motte",
-      postalCode: "22600",
-      region: "Bretagne",
+      street: "Manoir de La Ville Quesniac",
+      city: "Mohon",
+      postalCode: "56490",
+      region: "Morbihan",
       country: "France"
     }
   },
 
   social: {
-    facebook: "https://www.facebook.com/o.gourmandiz.d.aurore/",
-    instagram: "https://www.instagram.com/o.gourmandiz.d.aurore/",
-    tiktok: "https://www.tiktok.com/tag/ogourmandizdaurore"
+    facebook: "https://www.facebook.com/share/1BYmRb4KTz/",
+    instagram: "https://www.instagram.com/cidrerieduporhoet/",
+    youtube: "https://www.youtube.com/watch?v=XPwPUg3W9Yw"
   },
 
   hours: {
-    message: "Commandes à passer par téléphone, WhatsApp ou email",
+    message: "Vente sur les marchés et sur rendez-vous au Manoir de La Ville Quesniac",
     details: [
-      { day: "Lundi – Samedi", hours: "Sur commande" },
-      { day: "Événements", hours: "Toute la semaine" },
-      { day: "Délai recommandé", hours: "48h minimum" }
+      { day: "Marchés du Morbihan", hours: "Voir agenda" },
+      { day: "Cidrerie à Mohon", hours: "Sur rendez-vous" },
+      { day: "Délai de réponse", hours: "Sous 48h" }
     ]
   },
 
   hero: {
-    title: "Du beau, du bon, avec des produits d'ici",
-    subtitle: "Je crée vos pâtisseries et biscuiteries artisanales, créatives & de saison, entièrement sur commande depuis mon laboratoire à La Motte (Côtes-d'Armor).",
+    title: "Le cidre, au rang du vin.",
+    subtitle: "Je fabrique mon cidre dans la grange de 1723 du Manoir de La Ville Quesniac, à Mohon. Non filtré, non pasteurisé, fermenté avec les levures des pommes — un cidre vivant, à mettre à votre table.",
     cta: {
-      primary: "Me contacter pour commander",
-      secondary: "Voir mes créations"
+      primary: "Nos cuvées",
+      secondary: "Nous contacter"
     },
     features: [
-      "Tout sur commande",
-      "Produits locaux",
-      "Personnalisé pour vous"
+      "Non filtré",
+      "Non pasteurisé",
+      "Levures indigènes"
     ]
   },
 
   about: {
-    title: "Bonjour, je suis Aurore",
-    subtitle: "Pâtissière à La Motte, je transforme vos occasions en souvenirs gourmands",
+    title: "Bonjour, je suis Thierry",
+    subtitle: "Fondateur de la Cidrerie du Porhoët, artisan cidrier au Manoir de La Ville Quesniac, Mohon (Morbihan)",
     content: [
-      "Installée à La Motte depuis cinq ans, j'ai découvert la pâtisserie sur le tard, en cuisinant pour mes amis. Très vite, c'est devenu une évidence — et une passion que je n'ai plus lâchée.",
-      "Après un parcours atypique — assistante vétérinaire en Mayenne puis en Bretagne — j'ai tout repris à zéro. CAP pâtissier en candidat libre, stages, formations : je voulais être vraiment prête le jour où je me lancerais.",
-      "Depuis octobre 2025, je crée depuis mon laboratoire de 10 m² à La Motte. Tout est pensé pour travailler proprement, avec précision et plaisir. Et surtout : pour que vous soyez fiers de ce que vous poserez sur la table."
+      "Je suis fils et petit-fils d'agriculteurs bretons. Le cidre — le « vin de pomme » de mes aïeuls — coulait déjà dans les veines de ma famille avant de couler dans mes verres. Reprendre ce fil, le réinterpréter avec l'exigence d'un vigneron : c'était une évidence.",
+      "Avant de presser la première pomme, j'ai pris trois ans pour me préparer. Des formations, cinq stages dans des domaines viticoles de Bretagne nantaise, une rencontre déterminante avec Virginie Thomas — sommelière qualifiée de « druidesse des cidres ». Rien n'a été laissé au hasard.",
+      "Depuis l'automne 2025, je produis dans la grange de 1723 du Manoir de La Ville Quesniac, propriété familiale depuis 1988. 3 500 bouteilles pour cette première récolte, toutes remplies et étiquetées à la main. Mon cidre n'est pas un produit : c'est une signature."
     ],
     values: [
       {
-        title: "Je privilégie le local",
-        description: "Œufs de Guilliers, farine de Saint-Gérand, miel de Plœuc-sur-Lié, fruits de la Maison Le Bris à Loudéac — des producteurs que je connais et que je soutiens"
+        title: "Identité bretonne",
+        description: "Le Triskell, le Gwenn ha du, la langue bretonne, les fest-noz… et le cidre. Préserver ce marqueur vivant de notre patrimoine est le sens de ma reconversion."
       },
       {
-        title: "Je fais tout moi-même",
-        description: "Crèmes pâtissières, compotes, garnitures : je réalise toutes mes bases à la main, sans raccourci. C'est ce qui fait la différence en goût et en texture"
+        title: "Méthode viti-cidricole",
+        description: "Je travaille le cidre comme on travaille le vin : pas de filtration, pas de pasteurisation, fermentation avec les levures indigènes, prise de mousse naturelle en bouteille."
       },
       {
-        title: "Je m'adapte à vous",
-        description: "Prénom, date, thème, palette de couleurs, parfums… partagez vos idées, je les transpose en pâtisserie"
+        title: "Terroir et variétés",
+        description: "Les pommiers bretons ont leurs cépages comme la vigne. Je loue des vergers locaux pour un hectare de pommes à caractère — et je cultive moi-même la Marine Auffray à Ménéac."
       },
       {
-        title: "J'aime quand ça raconte quelque chose",
-        description: "Chaque commande est une histoire à raconter. Je mets autant de soin dans l'esthétique que dans le goût — parce que l'un ne va pas sans l'autre"
+        title: "Artisan, pas industriel",
+        description: "3 500 bouteilles en 2025, 10 000 en 2026 — mais jamais au détriment de l'exigence. Chaque bouteille est remplie et étiquetée à la main."
       }
     ],
     stats: [
-      { number: "CAP", label: "pâtissier diplômé" },
-      { number: "100 %", label: "fait maison" },
-      { number: "+7", label: "mois de créations" }
+      { number: "3 500", label: "bouteilles · récolte 2025" },
+      { number: "3", label: "cuvées artisanales" },
+      { number: "2ᵉ", label: "prix CiderPunk 2025" }
     ]
   },
 
   services: {
-    title: "Ce que je crée pour vous",
-    subtitle: "Chaque commande est unique — dites-moi ce que vous souhaitez, je m'occupe du reste",
+    title: "Nos cuvées",
+    subtitle: "Trois cidres et un jus de pomme — chacun raconte un terroir, une variété, un moment",
     list: [
       {
-        name: "Mes tartes signature",
-        description: "Snickers revisité, citron noisette meringué, fraises du jardin en saison, pommes et spéculoos… je joue les saveurs pour vous surprendre, sur un biscuit net et croustillant que je réalise entièrement moi-même.",
-        features: [
-          "Citron noisette meringué",
-          "Snickers revisité",
-          "Fraises de saison",
-          "Pommes & spéculoos"
-        ],
-        icon: "Cake",
-        photo: "/tarte.jpeg"
+        name: "Le Kentañ — extra-brut",
+        description: "Le premier (en breton). Mon extra-brut, sec et minéral, qui s'est distingué au concours CiderPunk 2025. Il accompagne le poisson, un rôti, une galette de sarrasin — là où on attendrait un vin blanc sec.",
+        features: ["Extra-brut", "2ᵉ prix CiderPunk 2025", "Poisson · Rôti · Galette · Sushis", "Minéral & délicat"],
+        icon: "Wine",
+        photo: "/pomme.jpeg"
       },
       {
-        name: "Biscuits personnalisés",
-        description: "Je grave votre prénom, votre date, votre motif sur chaque sablé. Ce petit détail qui fait que vos invités repartent avec un souvenir dans la main — et un sourire.",
-        features: [
-          "Sablés décorés",
-          "Prénom & date",
-          "Motifs sur mesure",
-          "Toutes occasions"
-        ],
-        icon: "Cookie",
-        photo: "/sables-personnalises.jpeg"
+        name: "Le Lion en Follery — brut",
+        description: "Un clin d'œil à l'histoire de Guilliers, « sans rendre fous ses consommateurs » ! Un brut équilibré, structuré, avec du caractère. Il prend sa place à table comme un vin rouge léger.",
+        features: ["Brut", "Structuré & équilibré", "Clin d'œil à Guilliers", "À table comme un vin"],
+        icon: "Award",
+        photo: "/promotion-cidre.jpeg"
       },
       {
-        name: "Pièces montées & entremets",
-        description: "Pour les grands moments, je crée des pièces qui marquent les esprits : pyramide de macarons à vos couleurs, fraisier monté en cercle, entremets de prestige. J'aime quand ça fait « oh » à l'entrée dans la salle.",
-        features: [
-          "Pyramide de macarons",
-          "Fraisier entremets",
-          "Couleurs sur mesure",
-          "Jusqu'à ~100 personnes"
-        ],
-        icon: "Star",
-        photo: "/gateau-mariage.jpeg"
+        name: "Marie de Menia — monovariétal",
+        description: "Une cuvée monovariétale, fruitée et expressive. La pomme star est la Marine Auffray, que je cultive moi-même à Ménéac. À l'image d'un grand cru, elle raconte un lieu et une saison.",
+        features: ["Monovariétal", "Pomme Marine Auffray", "Cultivée à Ménéac", "Fruitée & expressive"],
+        icon: "Leaf",
+        photo: "/pomme.jpeg"
       },
       {
-        name: "Gâteaux d'anniversaire",
-        description: "Du premier anniversaire au demi-siècle, je crée des gâteaux qui vous ressemblent. Dites-moi le thème, les couleurs, l'âge — je m'occupe du reste pour que ce soit exactement ce que vous imaginez.",
-        features: [
-          "Thème personnalisé",
-          "1 an, 10 ans, 40 ans…",
-          "Baby shower & baptême",
-          "Toutes générations"
-        ],
-        icon: "Gift",
-        photo: "/gateau-40-ans.jpeg"
+        name: "Jus de pomme artisanal",
+        description: "Le jus de pomme comme on l'a oublié : pur, sans sucre ajouté, sans additif. Pressé à partir des mêmes vergers que mes cidres — pour ceux qui veulent goûter le terroir breton sans alcool.",
+        features: ["Sans sucre ajouté", "Sans additif", "Pommes bretonnes locales", "Pour tous"],
+        icon: "Droplets",
+        photo: "/promotion-cidre.jpeg"
       }
     ]
   },
 
   whyChooseUs: {
-    title: "Ce que je vous promets",
-    subtitle: "Je ne fais pas de la pâtisserie en série. Chaque commande mérite mon entière attention.",
+    title: "Ce qui rend mon cidre vivant",
+    subtitle: "Ce que je refuse de faire est aussi important que ce que je fais.",
     reasons: [
       {
-        title: "Je prépare tout pour vous",
-        description: "Votre commande est réalisée spécialement pour vous, dans les 48h qui précèdent votre événement. Pas de stock, pas de « déjà fait » : fraîcheur garantie.",
-        icon: "Clock"
+        title: "Non filtré, non pasteurisé",
+        description: "Mon cidre conserve toute sa vie microbienne. Pas de filtration, pas de chaleur. Il évolue, il surprend — c'est ça, un cidre vivant.",
+        icon: "Leaf"
       },
       {
-        title: "Je travaille avec le terroir breton",
-        description: "Œufs de Guilliers, farine de Saint-Gérand, miel de Plœuc-sur-Lié, fruits de la Maison Le Bris à Loudéac. Je connais mes fournisseurs et je les choisis avec soin.",
-        icon: "MapPin"
-      },
-      {
-        title: "On crée ensemble",
-        description: "Couleurs, thème, prénom, parfums, quantité… Je vous écoute, je vous conseille, puis je concrétise exactement ce que vous avez en tête — souvent en mieux.",
+        title: "Prise de mousse naturelle",
+        description: "L'effervescence naît en bouteille lors d'une seconde fermentation naturelle — sans aucune gazéification artificielle. Comme le champagne, mais pour les pommes bretonnes.",
         icon: "Sparkles"
       },
       {
-        title: "Je fais tout à la main",
-        description: "Crèmes pâtissières, compotes, garnitures : je réalise toutes mes bases moi-même. C'est ce qui fait la différence en goût et en texture — et vous le sentirez à la dégustation.",
+        title: "Levures indigènes",
+        description: "Je n'ajoute aucune levure commerciale. Ce sont les levures sauvages présentes sur les pommes qui conduisent la fermentation — une signature du terroir.",
         icon: "CheckCircle"
       },
       {
-        title: "Je me suis formée avec sérieux",
-        description: "CAP pâtissier en candidat libre, stages, formations en micro-entreprise… Je me suis préparée avant de me lancer. Cette rigueur, elle est dans chaque pièce que je vous livre.",
+        title: "Pommes bretonnes, vergers locaux",
+        description: "Un hectare de vergers loués dans les environs de Mohon, des variétés bretonnes traditionnelles. Pressées dans ma grange de 1723 — à deux pas du verger.",
+        icon: "MapPin"
+      },
+      {
+        title: "Récompensé au CiderPunk 2025",
+        description: "Mon extra-brut Le Kentañ a décroché le 2ᵉ prix au salon du cidre naturel à Rennes en 2025. Une reconnaissance pour la démarche, pas juste pour le produit.",
         icon: "Award"
       },
       {
-        title: "Je suis les saisons",
-        description: "Fraises au printemps, pommes en automne, agrumes en hiver… Je m'adapte aux saisons parce que c'est là que les saveurs sont au meilleur.",
-        icon: "Leaf"
+        title: "Trois ans de préparation",
+        description: "Cinq stages en vignobles de Bretagne nantaise, formation auprès d'une sommelière spécialisée. Avant de vous vendre une bouteille, j'ai d'abord appris à la mériter.",
+        icon: "Clock"
       }
     ]
   },
 
   serviceArea: {
-    title: "Je suis basée à La Motte",
-    description: "Je vous remets vos commandes en main propre à La Motte, ou je m'organise pour vous dans le secteur de Loudéac et alentours",
+    title: "Venez me retrouver",
+    description: "Je suis présent sur les marchés locaux du Morbihan et du Centre-Bretagne. Et sur rendez-vous au Manoir de La Ville Quesniac, à Mohon.",
     cities: [
-      "La Motte",
-      "Loudéac",
-      "Pontivy",
-      "Rostrenen",
-      "Mûr-de-Bretagne",
-      "La Chèze",
-      "Plémet",
-      "Merdrignac",
-      "Plœuc-sur-Lié",
-      "Et environs"
+      "Josselin",
+      "Malestroit",
+      "Ploërmel",
+      "La Trinité-Porhoët",
+      "Évriguet",
+      "Le Roc-Saint-André",
+      "Taupont",
+      "Épiceries fines",
+      "Restaurants",
+      "Sur RDV à Mohon"
     ],
-    radius: "Centre Bretagne – je vous retrouve en main propre ou on s'organise ensemble pour la livraison"
+    radius: "Et bientôt dans d'autres épiceries fines et restaurants du Morbihan — contactez-moi pour devenir revendeur."
   },
 
   faq: {
@@ -193,67 +173,67 @@ export const siteConfig = {
     subtitle: "Je réponds aux plus fréquentes — et je suis toujours joignable si vous en avez d'autres",
     questions: [
       {
-        question: "Comment est-ce que je passe une commande ?",
-        answer: "Appelez-moi, écrivez-moi sur WhatsApp ou par email. Dites-moi l'occasion, le nombre de personnes, vos envies de saveurs ou de déco — et je vous reviens avec une proposition personnalisée."
+        question: "Où puis-je trouver vos cidres ?",
+        answer: "Je suis présent sur les marchés de Josselin, Malestroit, Ploërmel, La Trinité-Porhoët, Évriguet, Le Roc-Saint-André et Taupont. Vous pouvez aussi me contacter directement — je constitue progressivement un réseau d'épiceries fines et de restaurants."
       },
       {
-        question: "Quel délai me faut-il prévoir ?",
-        answer: "Pour une commande simple, 48h suffisent. Pour une pièce montée, un mariage ou un grand événement, je vous conseille de me contacter 2 à 3 semaines à l'avance pour qu'on sécurise votre date ensemble."
+        question: "Qu'est-ce qui différencie votre cidre d'un cidre industriel ?",
+        answer: "Mon cidre est vivant : ni filtré, ni pasteurisé. Il fermente avec les levures naturellement présentes sur les pommes, et la mousse naît en bouteille — sans gazéification artificielle. L'industrie cherche la régularité ; moi, je cherche le caractère."
       },
       {
-        question: "Est-ce que je peux tout personnaliser ?",
-        answer: "Oui, et c'est exactement pour ça que je travaille sur commande ! Couleurs, thème, prénom, date, parfums, motifs… Dites-moi ce que vous avez en tête, je m'adapte. Si vous n'avez pas d'idée précise, je vous conseille volontiers."
+        question: "Comment se déroule la fermentation naturelle ?",
+        answer: "Après le pressurage, le jus fermente lentement avec les levures indigènes des pommes. Une fois en bouteille, une seconde fermentation crée l'effervescence naturellement — comme pour le champagne ou le crémant. C'est long, c'est délicat, c'est ce qui fait la différence."
       },
       {
-        question: "Pour quelles occasions puis-je commander ?",
-        answer: "Anniversaires de 1 à 100 ans, mariages, fiançailles, baby shower, baptêmes, fêtes de fin d'année, Saint-Valentin, repas de famille, événements d'entreprise… Si vous avez une occasion à fêter, j'ai une création à vous proposer."
+        question: "Comment conserver les bouteilles ?",
+        answer: "Conservez-les à la cave, entre 10 et 15 °C, à l'abri de la lumière. Debout ou couché, les deux fonctionnent. Comme pour un bon vin, la patience est récompensée."
       },
       {
-        question: "Pour combien de personnes je peux créer ?",
-        answer: "Je peux répondre à des événements rassemblant jusqu'à une centaine de personnes, selon ce que vous souhaitez. On en parle ensemble lors de la prise de commande."
+        question: "Quels plats accompagnent vos cidres ?",
+        answer: "Le Kentañ (extra-brut) est parfait avec du poisson, un rôti, une galette ou des sushis. Le Lion en Follery (brut) se marie avec les fromages et les viandes. La Marie de Menia (monovariétal, fruitée) s'apprécie à l'apéro ou avec des desserts légers. Et le jus de pomme va avec tout !"
       },
       {
-        question: "Comment se passe la tarification ?",
-        answer: "Le prix dépend de la complexité, des quantités et des décors. Contactez-moi pour qu'on en discute ensemble — c'est gratuit, sans engagement, et je vous réponds rapidement."
+        question: "Proposez-vous de la vente directe à la cidrerie ?",
+        answer: "Oui, sur rendez-vous. Contactez-moi par téléphone ou email pour convenir d'un passage au Manoir de La Ville Quesniac à Mohon. C'est l'occasion de voir la grange de 1723 et de goûter directement à la source."
       },
       {
-        question: "D'où viennent vos ingrédients ?",
-        answer: "Tout vient de chez nous : œufs de Guilliers (Morbihan), farine de Saint-Gérand (Morbihan), miel de Plœuc-sur-Lié, fruits de la Maison Le Bris à Loudéac. C'est un choix réfléchi, pas un argument marketing."
+        question: "Combien de bouteilles produisez-vous ?",
+        answer: "3 500 bouteilles pour la première récolte d'automne 2025, toutes remplies et étiquetées à la main. L'objectif pour 2026 est de passer à 10 000 bouteilles, en maintenant la même exigence artisanale."
       },
       {
-        question: "Comment se passe la remise de commande ?",
-        answer: "Je vous remets votre commande en main propre à La Motte. Si vous êtes dans le secteur, on peut s'organiser autrement — on en parle au moment de la commande."
+        question: "Quelles nouveautés préparez-vous ?",
+        answer: "J'explore deux projets : un vinaigre de cidre et une co-fermentation de fruits pour un pétillant naturel alcoolisé à 7°. Le terrain est en cours — comme toujours, je prends le temps de bien faire."
       }
     ]
   },
 
   finalCTA: {
-    title: "Une envie de gourmandise ?",
-    subtitle: "Contactez-moi — on imagine ensemble votre création sur mesure",
-    buttonText: "Me contacter"
+    title: "Une bolée vous attend",
+    subtitle: "Venez me retrouver sur les marchés, ou contactez-moi directement pour commander vos bouteilles",
+    buttonText: "Nous contacter"
   },
 
   seo: {
-    title: "Ô Gourmandiz d'Aurore – Pâtisserie artisanale sur commande à La Motte (22)",
-    description: "Pâtisseries et biscuiteries artisanales, créatives & de saison sur commande à La Motte (Côtes-d'Armor). Gâteaux personnalisés, macarons, tartes signature, sablés décorés. ☎ 06 09 84 60 70",
+    title: "Cidrerie du Porhoët – Cidre artisanal vivant à Mohon (Morbihan)",
+    description: "Cidre artisanal non filtré, non pasteurisé, à fermentation naturelle. Thierry Jolivet produit ses cuvées au Manoir de La Ville Quesniac à Mohon (56). Trois gammes : Le Kentañ, Le Lion en Follery, Marie de Menia.",
     keywords: [
-      "pâtisserie La Motte",
-      "pâtisserie sur commande Loudéac",
-      "gâteau personnalisé 22",
-      "biscuiterie artisanale Bretagne",
-      "gâteau anniversaire Côtes-d'Armor",
-      "macaron sur commande Centre Bretagne",
-      "pièce montée mariage 22",
-      "Aurore Delmas pâtissière",
-      "pâtisserie artisanale Bretagne",
-      "sablés personnalisés Loudéac"
+      "cidre artisanal Morbihan",
+      "cidre naturel Bretagne",
+      "cidrerie Mohon",
+      "cidre non pasteurisé",
+      "cidre vivant",
+      "Le Kentañ cidre",
+      "Marie de Menia",
+      "cidre Porhoët",
+      "Thierry Jolivet cidrier",
+      "cidre naturel 56"
     ]
   },
 
   schema: {
     type: "LocalBusiness",
-    additionalType: "Bakery",
+    additionalType: "FoodEstablishment",
     priceRange: "€€",
-    areaServed: "Centre Bretagne"
+    areaServed: "Morbihan, Bretagne"
   }
 };
